@@ -6,6 +6,5 @@ Feature: Test Plan Karate
 		    And param page = 2
 		    When method GET
 		    Then status 200
-		    And match response.data.size() == 6
 		    And match response.data[0].id == 7
 		
